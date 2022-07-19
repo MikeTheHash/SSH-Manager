@@ -1,8 +1,11 @@
 import os
 from colorama import Back, Fore, Style
 
+# Version: 1.0
+
 def main():
 	os.system("figlet SSH-Manager")
+	print("Author: MikeTheHash - https://github.com/MikeTheHash")
 	print("1: Start SSH server \n2: Status of SSH server \n3: Stop SSH server \n4: Connect to an SSH server \n5: Clear \n6: Exit")
 	iusr = input("Select an option >")
 	if iusr == "1":
